@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horari SMIX</title>
+    <style>
+        body{
+            background-color:#386992;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table, th, td {
+            border: 1px solid #8b8a8a;
+            text-align:center;
+            padding: 10px;
+        }
+        th{
+            font-weight:lighter;
+            color:white;
+            background-color:#4682B4;
+        }
+        table{
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+            margin:auto;
+            width: 50%;
+        }
+        .t-horari td:first-child{
+            border-color:  #8b8a8a;
+            background-color: white;
+            color: black;
+            font-weight:lighter;
+            text-shadow: none;
+        }
+
+        .t-horari td{
+            color:white;
+            font-weight: bold;
+            border-color:  white;
+            background-color: white;
+            text-shadow: 1px 1px rgb(121, 120, 120);
+        }
+
+        h1,h2,h3{
+            text-align: center;
+            color: white;
+        }
+        h3{
+            font-weight:lighter;
+        }
+
+        .t-moduls{
+            margin-top: 25px;
+            margin-bottom: 40px;
+            background-color: white;
+        }
+
+        .t-moduls tr:nth-child(odd){
+            background-color:#8ec9fa71;
+        }
+
+        span{
+            font-weight: bold;
+        }
+
+        span:last-child{
+            font-weight:lighter;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>CFGM Sist. Microing. I Xarxes</h1>
+<h3>Curs: 2r Grup: C</h3>
+<h3>Tutor: Federico Jerez</h3>
+<h3>Aula Snowden</h3>
+<h2>Curs 2020-2021</h2>
+
+    <table class="t-horari">
+        <tr>
+            <th>
+                HORA
+            </th>
+            <th>
+                Dilluns
+            </th>
+            <th>
+                Dimarts
+            </th>
+            <th>
+                Dimecres
+            </th>
+            <th>
+                Dijous
+            </th>
+            <th>
+                Divendres
+            </th>            
+        </tr>
+        <tr>
+            <td>
+               15:00-16:00 
+            </td>
+            <td>
+                
+             </td>
+             <td style="background-color: grey;">
+                T
+             </td>
+             <td>
+                
+             </td>
+             <td rowspan="2" style="background-color: orange;">
+                MP04
+             </td>
+             <td>
+                
+             </td> 
+        <tr>
+            <td>
+               16:00-17:00 
+            </td>
+            <td rowspan="2" style="background-color: blue;">
+                MP06
+            </td>
+            <td rowspan="2" style="background-color:gold;">
+               MP08
+            </td>
+            <td rowspan="2" style="background-color: orange;">
+               MP04
+            </td>
+            <td rowspan="2" style="background-color:gold;">
+               MP08
+            </td> 
+        </tr>
+        <tr>    
+            <td>
+               17:00-17:55 
+            </td>
+            <td style="background-color:violet;">MP12</td>
+        </tr>
+        <tr>        
+            <td>
+               17:55-18:15 
+            </td>
+            <td colspan="5"></td>
+        </tr>
+        <tr>    
+            <td>
+               18:15-19:10 
+            </td>
+            <td rowspan="2" style="background-color: green;">MP07</td>
+            <td style="background-color:violet;">MP12</td>
+            <td style="background-color: green;">MP07</td>
+            <td style="background-color: red;">MP10</td>
+            <td style="background-color:violet;">MP12</td>
+        </tr>
+        <tr>        
+            <td>
+               19:10-20:05 
+            </td>
+            <td rowspan="2" style="background-color: green;">MP07</td>
+            <td rowspan="2" style="background-color: blue;">MP06</td>
+            <td rowspan="2" style="background-color:gold;">MP08</td>
+            <td style="background-color: red;">MP10</td>
+        </tr>
+        <tr>        
+            <td>
+               20:05-21:00 
+            </td>
+            <td></td>
+            <td></td>
+        <tr>
+    </table>
+
+    <table class="t-moduls">
+        <tr>
+            <th>Móduls Professionals</th>
+            <th>Professorat</th>
+        </tr>
+        <tr>
+            <td> <span>MP04</span> <span>Sistemes operatius en xarxa</span></td>
+            <td>Josep Manel Cos</td>
+        </tr>
+        <tr>
+            <td> <span>MP06</span> <span>Seguretat informàtica</span></td>
+            <td>Federico Jerez</td>
+        </tr>
+        <tr>
+            <td> <span>MP07</span> <span>Serveis de xarxa</span></td>
+            <td>Daniel Martinez</td>
+        </tr>
+        <tr>
+            <td> <span>MP08</span> <span>Aplicacions web</span></td>
+            <td>Gerard Falcó, Maribel Perramon</td>
+        </tr>
+        <tr>
+            <td> <span>MP10</span> <span>Empresa i iniciativa emprenedora</span></td>
+            <td>David Rodríguez</td>
+        </tr>
+        <tr>
+            <td> <span>MP12</span> <span>Credit de síntesi</span></td>
+            <td>David Rodríguez</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
